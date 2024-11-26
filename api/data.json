@@ -1,0 +1,139 @@
+{
+    "machines": [
+      {
+        "MachineID": 1,
+        "MachineType": "CNC Router",
+        "Capacity": "Medium",
+        "Location": "Warehouse A",
+        "Status": "Available",
+        "MaintenanceDueDate": "2024-12-01"
+      },
+      {
+        "MachineID": 2,
+        "MachineType": "Laser Cutter",
+        "Capacity": "High",
+        "Location": "Warehouse B",
+        "Status": "In Use",
+        "MaintenanceDueDate": "2024-11-30"
+      },
+      {
+        "MachineID": 3,
+        "MachineType": "3D Printer",
+        "Capacity": "Small",
+        "Location": "Warehouse A",
+        "Status": "Under Maintenance",
+        "MaintenanceDueDate": "2024-12-10"
+      },
+      {
+        "MachineID": 4,
+        "MachineType": "Injection Molder",
+        "Capacity": "Large",
+        "Location": "Warehouse C",
+        "Status": "Available",
+        "MaintenanceDueDate": "2024-12-05"
+      }
+    ],
+    "orders": [
+      {
+        "OrderID": 101,
+        "CustomerName": "ABC Furniture Co",
+        "MachineID": 1,
+        "StartDate": "2024-11-24",
+        "EndDate": "2024-12-01",
+        "Status": "Confirmed",
+        "BillingAmount": 1200
+      },
+      {
+        "OrderID": 102,
+        "CustomerName": "XYZ Tech Ltd",
+        "MachineID": 2,
+        "StartDate": "2024-11-25",
+        "EndDate": "2024-11-30",
+        "Status": "Confirmed",
+        "BillingAmount": 1500
+      },
+      {
+        "OrderID": 103,
+        "CustomerName": "Global Builders",
+        "MachineID": 3,
+        "StartDate": "2024-11-26",
+        "EndDate": "2024-12-03",
+        "Status": "Pending",
+        "BillingAmount": 800
+      },
+      {
+        "OrderID": 104,
+        "CustomerName": "Prime Plastics",
+        "MachineID": 4,
+        "StartDate": "2024-12-01",
+        "EndDate": "2024-12-07",
+        "Status": "Confirmed",
+        "BillingAmount": 2000
+      }
+    ],
+    "machine_utilization_logs": [
+      {
+        "LogID": 1,
+        "MachineID": 1,
+        "Date": "2024-11-24",
+        "UsageHours": 5,
+        "Notes": "Normal Operation"
+      },
+      {
+        "LogID": 2,
+        "MachineID": 2,
+        "Date": "2024-11-25",
+        "UsageHours": 6,
+        "Notes": "Overheated for 10 minutes"
+      },
+      {
+        "LogID": 3,
+        "MachineID": 3,
+        "Date": "2024-11-26",
+        "UsageHours": 0,
+        "Notes": "Machine under maintenance"
+      },
+      {
+        "LogID": 4,
+        "MachineID": 4,
+        "Date": "2024-12-01",
+        "UsageHours": 8,
+        "Notes": "Normal Operation"
+      }
+    ],
+    "maintenance_schedule": [
+      {
+        "MaintenanceID": 1,
+        "MachineID": 1,
+        "LastMaintenanceDate": "2024-11-15",
+        "NextMaintenanceDate": "2024-12-01",
+        "Technician": "John Doe",
+        "Notes": "Checked alignment"
+      },
+      {
+        "MaintenanceID": 2,
+        "MachineID": 2,
+        "LastMaintenanceDate": "2024-10-30",
+        "NextMaintenanceDate": "2024-11-30",
+        "Technician": "Jane Smith",
+        "Notes": "Replaced cooling system"
+      },
+      {
+        "MaintenanceID": 3,
+        "MachineID": 3,
+        "LastMaintenanceDate": "2024-11-10",
+        "NextMaintenanceDate": "2024-12-10",
+        "Technician": "Alan Turing",
+        "Notes": "Needs recalibration"
+      },
+      {
+        "MaintenanceID": 4,
+        "MachineID": 4,
+        "LastMaintenanceDate": "2024-11-20",
+        "NextMaintenanceDate": "2024-12-05",
+        "Technician": "Susan Clark",
+        "Notes": "General servicing"
+      }
+    ]
+  }
+  

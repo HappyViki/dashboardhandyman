@@ -1,0 +1,43 @@
+/* Form Styling */
+.pretty-form form {
+    display: flex;
+    flex-direction: column;
+    background: #fff;
+    margin: 24px auto;
+    padding: 20px;
+    max-width: 600px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+form h3 {
+    margin-bottom: 15px;
+    color: #555;
+}
+
+select, input, button, textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 16px;
+    background: white;
+}
+
+.pretty-form select, .pretty-form input, .pretty-form button {
+    width: unset;
+    padding: 10px;
+}
+
+button {
+    background: #004c99;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+button:hover {
+    background: #004d99bb;
+}

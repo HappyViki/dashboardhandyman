@@ -1,0 +1,82 @@
+[
+    {
+        "machine_id": "MCH001",
+        "status": "Running",
+        "temperature": 75.5,
+        "last_maintenance": "2024-10-15",
+        "uptime_hours": 200,
+        "downtime_hours": 10
+    },
+    {
+        "machine_id": "MCH002",
+        "status": "Idle",
+        "temperature": 60.0,
+        "last_maintenance": "2024-10-12",
+        "uptime_hours": 150,
+        "downtime_hours": 25
+    },
+    {
+        "machine_id": "MCH003",
+        "status": "Maintenance",
+        "temperature": 0.0,
+        "last_maintenance": "2024-11-01",
+        "uptime_hours": 300,
+        "downtime_hours": 50
+    },
+    {
+        "machine_id": "MCH004",
+        "status": "Running",
+        "temperature": 72.3,
+        "last_maintenance": "2024-09-30",
+        "uptime_hours": 400,
+        "downtime_hours": 5
+    },
+    {
+        "machine_id": "MCH005",
+        "status": "Idle",
+        "temperature": 65.1,
+        "last_maintenance": "2024-10-22",
+        "uptime_hours": 250,
+        "downtime_hours": 30
+    },
+    {
+        "machine_id": "MCH006",
+        "status": "Running",
+        "temperature": 78.4,
+        "last_maintenance": "2024-11-05",
+        "uptime_hours": 220,
+        "downtime_hours": 15
+    },
+    {
+        "machine_id": "MCH007",
+        "status": "Maintenance",
+        "temperature": 0.0,
+        "last_maintenance": "2024-11-15",
+        "uptime_hours": 100,
+        "downtime_hours": 60
+    },
+    {
+        "machine_id": "MCH008",
+        "status": "Running",
+        "temperature": 74.2,
+        "last_maintenance": "2024-09-20",
+        "uptime_hours": 350,
+        "downtime_hours": 8
+    },
+    {
+        "machine_id": "MCH009",
+        "status": "Idle",
+        "temperature": 67.8,
+        "last_maintenance": "2024-10-10",
+        "uptime_hours": 275,
+        "downtime_hours": 20
+    },
+    {
+        "machine_id": "MCH010",
+        "status": "Running",
+        "temperature": 79.0,
+        "last_maintenance": "2024-11-10",
+        "uptime_hours": 180,
+        "downtime_hours": 12
+    }
+]
