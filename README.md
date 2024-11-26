@@ -19,4 +19,6 @@ After working on this project, my love for full stack LAMP development got reign
 
 ![analytics features screenshot](img/screenshots/analytics.png)
 
+![orders features screenshot](img/screenshots/product_management.png)
+
 ![orders features screenshot](img/screenshots/customer_management.png)
