@@ -43,20 +43,21 @@ table input {
     font-size: 14px;
 }
 
-button {
+button, table .btn {
     padding: 5px 10px;
     border-radius: 4px;
     border: none;
     cursor: pointer;
     font-size: 14px;
+    text-decoration: none;
 }
 
-button.update {
+button.update, table .btn {
     background: var(--primary);
     color: #fff;
 }
 
-button.update:hover {
+button.update:hover, table .btn:hover {
     background: var(--tertiary);
 }
 

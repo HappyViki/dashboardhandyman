@@ -4,7 +4,7 @@
 <header>
     <nav>
         <ul>
-            <li><img src="img/dashboard_handyman_logo_50px.png" alt="Dashboard Handyman Logo"></li>
+            <li><img class="logo" src="img/dashboard_handyman_logo_50px.png" alt="Logo"></li>
             <li><a class="home" href="dashboard.php">Home</a></li>
             <li><a href="orders.php">Orders</a></li>
             <li><a href="customers.php">Customers</a></li>

@@ -43,7 +43,7 @@ $orders = $stmt->fetchAll(PDO::FETCH_ASSOC);
                 <tbody>
                     <?php foreach ($orders as $order): ?>
                         <tr>
-                            <td><button class="update">Notify</button></td>
+                            <td><a href="text_customer.php" class="btn update">Notify</a></td>
                             <td><?= $order['fullname'] ?></td>
                             <td><a href="https://www.google.com/maps/place/<?= $order['address'] ?>"/><?= $order['address'] ?></a></td>
                             <td><a href="tel:<?= $order['phone'] ?>"><?= $order['phone'] ?></a></td>
